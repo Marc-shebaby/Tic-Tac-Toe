@@ -1,3 +1,81 @@
-canvas{
-    border:3px solid black;
+.BOX{
+    width: 753px;
+    height:     800px;
+   position: absolute;
+   
+  
+    
+    
 }
+body{
+ 
+    background-color: purple;
+}
+
+
+.store{
+    width: 753px;
+    height: 800px;
+background-color: orange;
+float:right;
+
+
+}
+
+.cent{
+    width:800px;
+    height: 800px;
+background-color: blue;
+
+    
+}
+.game{
+   
+    height: 22%;
+    background-color: beige;
+    text-align: center;
+    font-size: xx-large;
+    margin:0 auto;
+  
+    
+}
+.press{
+    background-color: purple;
+
+    height:800px;
+   
+    margin:0 auto;
+   
+}
+.mid{
+    background-color: green;
+    width:220px;
+    height:270px;
+    margin: 0 auto;
+   
+
+
+}
+.out{
+    width:75px;
+    height:100px;
+    
+}
+.ani{
+    width: 700px;
+    height: 800px;
+}
+.out1{
+    
+    float:left;
+}
+.out2{
+    margin:0 auto;
+    width:2px;
+    height:2px;
+}
+.out3{
+    float:right;
+
+}
+
