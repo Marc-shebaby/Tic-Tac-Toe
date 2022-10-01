@@ -1,6 +1,6 @@
 .BOX{
     width: 730px;
-    height:     1000px;
+    height:     6000px;
    position: absolute;
   
    
@@ -8,10 +8,7 @@
     
     
 }
-body{
- 
-   
-}
+
 .left{
     float:left;
     width:245px;
@@ -28,18 +25,10 @@ body{
     height:235px;
     margin-top: 10px;
     margin-bottom: 10px;
+
  
 }
 
-.down{
-    margin-top: 50%;
-    width: 750px;
-    height: 2000px;
-background-color: orange;
-
-
-
-}
 
 .cent{
     width:800px;
@@ -68,7 +57,7 @@ background-color: orange;
    
 }
 .mid{
-    
+   
     width:200px;
     height:245px;
     padding: 10px;
@@ -77,34 +66,24 @@ background-color: orange;
 
 
 }
-.out{
-    width:10px;
-    height:20px;
-    
-}
-.ani{
-    width: 700px;
-    height: 800px;
-}
-.out1{
-    margin-left: 30px;
-    width: 20%;
-    height:9%;
-    float:left;
-    
-}
-.out2{
-    margin:0 auto;
-    width:20%;
-    height:9%;
-    
-    
-}
-.out3{
-    width: 20%;
-    height:9%;
-    float:right;
-  
 
+
+
+
+.red{
+    
+position: absolute;
+display: none;
+left:40px;
+top:48px;
+
+
+}
+.yellow{
+    position:absolute;
+    top:46px;
+    left:40px;
+    display: none;
+  
 }
 
