@@ -83,11 +83,11 @@ function aniM(e){
         let over=check_winner();
 
         if (over==1){
-document.getElementsByClassName("over")[0].innerText="X Wins!";
+document.getElementsByClassName("over")[0].innerText="Red Wins!";
 
         }
         else if (over==-1){
-            document.getElementsByClassName("over")[0].innerText="O Wins!";
+            document.getElementsByClassName("over")[0].innerText="Yellow Wins!";
         }
         else if(over==0){
             document.getElementsByClassName("over")[0].innerText="It is a Tie!";
@@ -101,7 +101,7 @@ document.getElementsByClassName("over")[0].innerText="X Wins!";
     bestMove();
     }
     else if(check_winner()==1){
-        document.getElementsByClassName("over")[0].innerText="X Wins!";
+        document.getElementsByClassName("over")[0].innerText="Red Wins!";
         counter=0;
        
     }
@@ -111,7 +111,7 @@ document.getElementsByClassName("over")[0].innerText="X Wins!";
        
     }
     else if (check_winner()==-1){
-        document.getElementsByClassName("over")[0].innerText="O Wins!";
+        document.getElementsByClassName("over")[0].innerText="Yellow Wins!";
         counter=0;
        
     }
